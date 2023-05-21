@@ -1,0 +1,123 @@
+{
+    "remote_procedures": 
+    [
+        {
+            "procedure_name": "foo",
+            "parameters": 
+            [
+                {
+                    "parameter_name": "par_1",
+                    "data_type": "int"
+                }
+            ],
+            "return_type": "string"
+        },
+        {
+            "procedure_name": "bar",
+            "parameters": 
+            [
+                {
+                    "parameter_name": "par_1",
+                    "data_type": "int"
+                },
+                {
+                    "parameter_name": "par_2",
+                    "data_type": "string"
+                }
+            ],
+            "return_type": "int"
+        },
+        {
+            "procedure_name": "addition",
+            "parameters": [
+                {
+                    "parameter_name": "par_1",
+                    "data_type": "int"
+                },
+                {
+                    "parameter_name": "par_2",
+                    "data_type": "int"
+                }
+            ],
+            "return_type": "int"
+        },
+        {
+            "procedure_name": "multiply",
+            "parameters": [
+                {
+                    "parameter_name": "par_1",
+                    "data_type": "int"
+                },
+                {
+                    "parameter_name": "par_2",
+                    "data_type": "int"
+                }
+            ],
+            "return_type": "int"
+        },
+        {
+            "procedure_name": "voidFunc",
+            "parameters": [
+                {
+                    "parameter_name": "par_1",
+                    "data_type": "string"
+                }
+            ],
+            "return_type": "NoneType"
+        },
+        {
+            "procedure_name": "univAdd",
+            "parameters": [
+                {
+                    "parameter_name": "par_1",
+                    "data_type": "int"
+                },
+                {
+                    "parameter_name": "par_2",
+                    "data_type": "float"
+                }
+            ],
+            "return_type": "float"
+        },
+        {
+            "procedure_name": "boolOp",
+            "parameters": [
+                {
+                    "parameter_name": "par_1",
+                    "data_type": "bool"
+                },
+                {
+                    "parameter_name": "par_2",
+                    "data_type": "bool"
+                }
+            ],
+            "return_type": "bool"
+        },
+        {
+            "procedure_name": "noParam",
+            "parameters": [
+
+            ],
+            "return_type": "bool"
+        },
+        {
+            "procedure_name": "noParamReturn",
+            "parameters": [],
+            "return_type": "NoneType"
+        },
+        {
+            "procedure_name": "division",
+            "parameters": [
+                {
+                    "parameter_name": "par_1",
+                    "data_type": "float"
+                },
+                {
+                    "parameter_name": "par_2",
+                    "data_type": "int"
+                }
+            ],
+            "return_type": "float"
+        }
+    ]
+}
